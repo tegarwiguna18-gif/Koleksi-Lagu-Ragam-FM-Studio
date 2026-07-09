@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Lagu Karya Saya | Ragam FM Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        utama: '#1d4ed8',
+                        kedua: '#7c3aed',
+                        latar: '#f8fafc',
+                        teks: '#1e293b',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .bg-gradient-musik {
+                background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+            }
+            .kartu-shadow {
+                box-shadow: 0 8px 30px rgba(29, 78, 216, 0.15);
+            }
+            .btn-utama {
+                background: linear-gradient(90deg, #1d4ed8 0%, #7c3aed 100%);
+                transition: all 0.3s ease;
+            }
+            .btn-utama:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(29, 78, 216, 0.3);
+            }
+            .logo-tw {
+                background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .slogan {
+                letter-spacing: 1px;
+            }
+        }
+    </style>
+
+    <!-- Meta Tag Berbagi -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kumpulan Lagu Karya Tegar Wiguna | Ragam FM Studio">
+    <meta property="og:description" content="Koleksi lagu orisinal ciptaan sendiri yang sudah dipublikasikan di channel YouTube Ragam FM Studio">
+    <meta property="og:image" content="https://i.imgur.com/8Z7XQfL.png">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body class="min-h-screen bg-latar font-sans">
+    
+    <!-- Bagian Header -->
+    <header class="bg-gradient-musik text-white py-10 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="flex items-center justify-center gap-3 mb-4">
+                <div class="bg-white p-2 rounded-full shadow-lg">
+                    <span class="text-2xl font-extrabold logo-tw">TW</span>
+                </div>
+            </div>
+            <h1 class="text-[clamp(1.8rem,5vw,2.8rem)] font-bold mb-3 flex items-center justify-center gap-2">
+                <i class="fa fa-music"></i> Kumpulan Lagu Karya Sendiri
+            </h1>
+            <p class="text-indigo-100 slogan text-sm font-medium mb-2">"THE POWER OF CALCULATOR"</p>
+            <p class="text-indigo-100 mb-6 max-w-xl mx-auto">Koleksi lagu orisinal ciptaan saya, yang telah dipublikasikan secara resmi di channel YouTube saya: <strong>Ragam FM Studio</strong> 🎶</p>
+            <a href="https://www.youtube.com/channel/UCXXXXXXXXXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 px-6 py-3 rounded-xl font-medium transition-all shadow-lg">
+                <i class="fa fa-youtube-play"></i> Kunjungi Channel Ragam FM Studio
+            </a>
+        </div>
+    </header>
+
+    <!-- Bagian Daftar Lagu -->
+    <main class="max-w-4xl mx-auto py-10 px-4">
+        <h2 class="text-2xl font-bold text-teks mb-6 text-center flex items-center justify-center gap-2">
+            <i class="fa fa-list-ul text-utama"></i> Daftar Karya Musik
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Kartu Lagu 1 - Ganti Judul & Link Sesuai Karyamu -->
+            <div class="bg-white rounded-2xl p-6 kartu-shadow border-t-4 border-utama">
+                <h3 class="text-xl font-bold text-teks mb-2">🎵 Judul Lagu Pertama</h3>
+                <p class="text-gray-600 text-sm mb-4">Lagu perdana yang saya ciptakan dengan penuh perasaan, menceritakan tentang semangat meraih mimpi.</p>
+                <a href="https://www.youtube.com/watch?v=LINK_VIDEO1" target="_blank" rel="noopener noreferrer" class="btn-utama block text-center text-white py-2 px-4 rounded-lg text-sm font-medium">
+                    <i class="fa fa-play-circle mr-2"></i> Tonton di YouTube
+                </a>
+            </div>
+
+            <!-- Kartu Lagu 2 - Ganti Judul & Link Sesuai Karyamu -->
+            <div class="bg-white rounded-2xl p-6 kartu-shadow border-t-4 border-kedua">
+                <h3 class="text-xl font-bold text-teks mb-2">🎵 Judul Lagu Kedua</h3>
+                <p class="text-gray-600 text-sm mb-4">Lagu tentang persahabatan dan kenangan indah bersama orang-orang terdekat.</p>
+                <a href="https://www.youtube.com/watch?v=LINK_VIDEO2" target="_blank" rel="noopener noreferrer" class="btn-utama block text-center text-white py-2 px-4 rounded-lg text-sm font-medium">
+                    <i class="fa fa-play-circle mr-2"></i> Tonton di YouTube
+                </a>
+            </div>
+
+            <!-- Kartu Lagu 3 - Ganti Judul & Link Sesuai Karyamu -->
+            <div class="bg-white rounded-2xl p-6 kartu-shadow border-t-4 border-utama">
+                <h3 class="text-xl font-bold text-teks mb-2">🎵 Judul Lagu Ketiga</h3>
+                <p class="text-gray-600 text-sm mb-4">Lagu bertema alam dan kedamaian, terinspirasi dari keindahan sekitar tempat tinggal saya.</p>
+                <a href="https://www.youtube.com/watch?v=LINK_VIDEO3" target="_blank" rel="noopener noreferrer" class="btn-utama block text-center text-white py-2 px-4 rounded-lg text-sm font-medium">
+                    <i class="fa fa-play-circle mr-2"></i> Tonton di YouTube
+                </a>
+            </div>
+
+            <!-- Kartu Lagu 4 - Ganti Judul & Link Sesuai Karyamu -->
+            <div class="bg-white rounded-2xl p-6 kartu-shadow border-t-4 border-kedua">
+                <h3 class="text-xl font-bold text-teks mb-2">🎵 Judul Lagu Keempat</h3>
+                <p class="text-gray-600 text-sm mb-4">Lagu yang mengajak untuk selalu bersyukur dan berbagi kebaikan kepada sesama.</p>
+                <a href="https://www.youtube.com/watch?v=LINK_VIDEO4" target="_blank" rel="noopener noreferrer" class="btn-utama block text-center text-white py-2 px-4 rounded-lg text-sm font-medium">
+                    <i class="fa fa-play-circle mr-2"></i> Tonton di YouTube
+                </a>
+            </div>
+
+            <!-- Tambahkan Kartu Lagu Baru di Bawah Ini Sesuai Jumlah Karyamu -->
+
+        </div>
+
+        <!-- Bagian Informasi Tambahan -->
+        <div class="mt-12 p-6 bg-blue-50 rounded-xl text-center">
+            <h3 class="font-semibold text-utama mb-2">📢 Catatan untuk Pengunjung</h3>
+            <p class="text-sm text-gray-700">Semua lagu yang ada di halaman ini adalah karya orisinal ciptaan sendiri. Dilarang keras mengklaim, menyebarkan ulang, atau mengubah tanpa izin tertulis dari pencipta. Dukung terus karya saya dengan cara menonton, menyukai, dan berlangganan channel <strong>Ragam FM Studio</strong> ya!</p>
+        </div>
+    </main>
+
+    <!-- Bagian Footer -->
+    <footer class="bg-teks text-white py-8 px-4 mt-10">
+        <div class="max-w-4xl mx-auto text-center text-sm space-y-2">
+            <p class="font-medium">"THE POWER OF CALCULATOR"</p>
+            <p>Karya Musik & Laman Dibuat oleh: <strong>Creator Tegar Wiguna</strong></p>
+            <p>Channel Resmi: <strong>Ragam FM Studio</strong></p>
+            <p>© 2026 Semua Hak Cipta Dilindungi Undang-Undang</p>
+        </div>
+    </footer>
+</body>
+</html>
